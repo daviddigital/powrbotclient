@@ -12,7 +12,7 @@ from codecs import open
 from os import path
 
 here = path.abspath(path.dirname(__file__))
-import cumin
+import powrbot
 
 # Get the long description from the relevant file
 with open(path.join(here, 'README.md'), encoding='utf-8') as f:
@@ -20,7 +20,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 
 def get_version():
-    return cumin.__version__
+    return powrbot.__version__
 
 
 setup(
@@ -63,7 +63,6 @@ setup(
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
-    # packages=['cumin'],
     packages=find_packages(exclude=['test.py', '__pycache__/*', '__pycache__']),
 
     install_requires=['requests'],
