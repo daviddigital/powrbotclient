@@ -7,7 +7,7 @@ Python module to interact with Powrbot API
 3. Click on DEVELOPER.
 
 ## Secret Key
-Use Secret Key to make API Requests. You find secret key in developer section. See below **Examples**.
+Use Secret Key to make API Requests. You can find secret key in developer section. See **Examples** below .
 
 ## Powrbotclient
 We have developoed lightweight wrapper to interact with Powrbot API. Install Powrbotclient
@@ -229,7 +229,7 @@ Returns:
 
 ### 2. Bulk Search
 
-Download sample from [powrbot.com](https://powrbot.com/assets/sample.csv)
+Download sample CSV file from [powrbot.com](https://powrbot.com/assets/sample.csv)
 
     from powrbot import Powrbot
     powrbot = Powrbot('secret_key')
